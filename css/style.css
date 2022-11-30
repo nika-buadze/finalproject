@@ -62,28 +62,25 @@
     background-color: #377DFF;
     margin-top: 100px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.sec1-background2 {
-    background-color: #377DFF;
-    max-width: 979px;
-    width: 100%;
-    height: 128px;
-    border-radius: 0px 0px 122px 128px;
-    margin-top: 170px;
+    margin-bottom: 30px;
 }
 .sec1-main-block {
     max-width: 1590px;
     width: 100%;
+    height: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.box {
-    max-width: 255px;
+.welcome-parent {
+    max-width: 445px;
     width: 100%;
-    height: 284px;
-    background-color: #272A2E;
-    border-radius: 5%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 .box-parent {
     display: flex;
@@ -91,6 +88,30 @@
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-left: 150px;
+}
+.welcome-box {
+    max-width: 445px;
+    width: 100%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.sec1-background2 {
+    background-color: #377DFF;
+    max-width: 979px;
+    width: 100%;
+    height: 128px;
+    border-radius: 0px 0px 122px 128px;
+    margin-top: 30px;
+}
+.box {
+    width: 255px;
+    height: 284px;
+    background-color: #272A2E;
+    border-radius: 5%;
 }
 .box:nth-child(4) {
     margin-top: 32px;
@@ -129,15 +150,6 @@
     color: #D1E0FB;
     font-size: 18px;
 }
-.welcome-box {
-    max-width: 445px;
-    width: 100%;
-    height: 380px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
 .start-now-button {
     width: 167px;
     height: 48px;
@@ -147,30 +159,23 @@
     align-items: center;
     justify-content: center;
 }
-.welcome-box h5 {
+.welcome-parent h5 {
     font-size: 18px;
     color: #D1E0FB;
     font-weight: bold;
 }
-.welcome-box h4 {
+.welcome-parent h4 {
     margin-top: 25px;
     margin-bottom: 35px;
     font-size: 40px;
     color: #FAFAFA;
 }
-.welcome-box p {
+.welcome-parent p {
     font-size: 20px;
     color: #FAFAFA;
 }
-.welcome-box div {
+.welcome-parent div {
     margin-top: 26px;
-}
-.welcome-parent {
-    display: flex;
-    max-width: 1371px;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 .fa-bars {
     font-size: 35px;
@@ -179,4 +184,7 @@
 }
 .burgerbar {
     display: none;
+}
+/* section 2 styles */
+.section-2 {
 }

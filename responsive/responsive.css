@@ -3,20 +3,23 @@
         justify-content: center;
     }
 }
-@media (max-width: 767px) {
-    .sec1-background {
-        border-radius: 5%;
-    }
+@media (max-width: 781px) {
     .box:nth-child(3) {
         margin-top: 32px;
     }
-}
-@media (max-width: 528px) {
-    .box-parent {
-        justify-content: center;
+    .box {
+        width: 45%;
     }
+}
+@media (max-width: 526px) {
     .box:nth-child(2) {
         margin-top: 32px;
+    }
+    .box {
+        width: 255px;
+    }
+    .box-parent {
+        justify-content: center;
     }
     .logo-box {
         width: 153px;
@@ -24,7 +27,6 @@
     }
     .login {
         width: 105px;
-
     }
 }
 @media (max-width: 985px) {
@@ -33,5 +35,13 @@
     }
     .burgerbar {
         display: block;
+    }
+    .box-parent {
+        margin-left: 0px;
+    }
+}
+@media (max-width: 1421px) {
+    .box-parent {
+        margin-left: 0px;
     }
 }
