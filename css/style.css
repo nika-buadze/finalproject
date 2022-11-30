@@ -159,18 +159,18 @@
     align-items: center;
     justify-content: center;
 }
-.welcome-parent h5 {
+.welch5 {
     font-size: 18px;
     color: #D1E0FB;
     font-weight: bold;
 }
-.welcome-parent h4 {
+.welch4 {
     margin-top: 25px;
     margin-bottom: 35px;
     font-size: 40px;
     color: #FAFAFA;
 }
-.welcome-parent p {
+.welcp {
     font-size: 20px;
     color: #FAFAFA;
 }
