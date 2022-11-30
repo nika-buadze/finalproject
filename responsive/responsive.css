@@ -31,6 +31,12 @@
     .sec2-left-block-inblock {
         flex-direction: column;
     }
+    .topbot {
+        margin-top: 30px;
+    }
+    .bottop {
+        margin-top: 30px;
+    }
 }
 @media (max-width: 985px) {
     .navi {
@@ -52,5 +58,13 @@
     .sec2-right-block {
         margin-left: 0px;
         margin-top: 70px;
+    }
+}
+@media (max-width:427px) {
+    .sec3-boxes {
+        justify-content: center;
+    }
+    .segment-box {
+        margin-top: 15px;
     }
 }
