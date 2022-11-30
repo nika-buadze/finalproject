@@ -1,0 +1,37 @@
+@media (max-width: 1273px) {
+    .welcome-parent {
+        justify-content: center;
+    }
+}
+@media (max-width: 767px) {
+    .sec1-background {
+        border-radius: 5%;
+    }
+    .box:nth-child(3) {
+        margin-top: 32px;
+    }
+}
+@media (max-width: 528px) {
+    .box-parent {
+        justify-content: center;
+    }
+    .box:nth-child(2) {
+        margin-top: 32px;
+    }
+    .logo-box {
+        width: 153px;
+        height: 106px;
+    }
+    .login {
+        width: 105px;
+
+    }
+}
+@media (max-width: 985px) {
+    .navi {
+        display: none;
+    }
+    .burgerbar {
+        display: block;
+    }
+}

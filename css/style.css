@@ -60,7 +60,10 @@
     height: 128px;
     border-radius: 0px 122px 0px 122px;
     background-color: #377DFF;
-    margin-top: 221px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .sec1-background2 {
     background-color: #377DFF;
@@ -71,13 +74,13 @@
     margin-top: 170px;
 }
 .sec1-main-block {
-    position: relative;
     max-width: 1590px;
     width: 100%;
     margin: 0 auto;
 }
 .box {
-    width: 255px;
+    max-width: 255px;
+    width: 100%;
     height: 284px;
     background-color: #272A2E;
     border-radius: 5%;
@@ -87,10 +90,7 @@
     max-width: 811px;
     width: 100%;
     flex-wrap: wrap;
-    bottom: 100px;
-    right: 238px;
     justify-content: space-between;
-    position: absolute;
 }
 .box:nth-child(4) {
     margin-top: 32px;
@@ -133,9 +133,10 @@
     max-width: 445px;
     width: 100%;
     height: 380px;
-    position:absolute;
-    left: 250px;
-    bottom: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 .start-now-button {
     width: 167px;
@@ -147,8 +148,9 @@
     justify-content: center;
 }
 .welcome-box h5 {
-    font-size: 13px;
-    color: #4579F5;
+    font-size: 18px;
+    color: #D1E0FB;
+    font-weight: bold;
 }
 .welcome-box h4 {
     margin-top: 25px;
@@ -162,4 +164,19 @@
 }
 .welcome-box div {
     margin-top: 26px;
+}
+.welcome-parent {
+    display: flex;
+    max-width: 1371px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fa-bars {
+    font-size: 35px;
+    color: #D1E0FB;
+    margin-top: 30px;
+}
+.burgerbar {
+    display: none;
 }
