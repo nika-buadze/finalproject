@@ -28,6 +28,9 @@
     .login {
         width: 105px;
     }
+    .sec2-left-block-inblock {
+        flex-direction: column;
+    }
 }
 @media (max-width: 985px) {
     .navi {
@@ -43,5 +46,11 @@
 @media (max-width: 1421px) {
     .box-parent {
         margin-left: 0px;
+    }
+}
+@media (max-width:1222px) {
+    .sec2-right-block {
+        margin-left: 0px;
+        margin-top: 70px;
     }
 }
