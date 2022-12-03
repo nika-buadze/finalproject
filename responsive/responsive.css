@@ -37,6 +37,24 @@
     .bottop {
         margin-top: 30px;
     }
+    .footer-title {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .account {
+        margin-top: 65px;
+        margin-bottom: 65px;
+    }
+    .home {
+        margin-top: 65px;
+        margin-bottom: 65px;
+    }
+    .footer-ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media (max-width: 985px) {
     .navi {
